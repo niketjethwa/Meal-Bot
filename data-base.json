@@ -1,0 +1,331 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                {
+                    "name" : "Hello, thanks for visiting"
+                },   
+                {
+                    "name" : "Good to see you again"
+                },
+                {
+                    "name" : "Hi there, how can I help?"
+                }
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                {
+                    "name" : "See you later, thanks for visiting"
+                },   
+                {
+                    "name" : "Have a nice day"
+                },
+                {
+                    "name" : "Bye! Come back again soon."
+                }
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                {
+                    "name" : "Happy to help!"
+                },   
+                {
+                    "name" : "Any time!"
+                },
+                {
+                    "name" : "My pleasure"
+                }
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What hours are you open?",
+                "What are your hours?",
+                "When are you open?"
+            ],
+            "responses": [
+                {
+                    "name" : "We're open every day 9am-9pm"
+                },   
+                {
+                    "name" : "Our hours are 9am-9pm every day"
+                }
+            ]
+        },
+        {
+            "tag": "opentoday",
+            "patterns": [
+                "Are you open today?",
+                "When do you open today?",
+                "What are your hours today?"
+            ],
+            "responses": [
+                {
+                    "name" : "We're open every day from 9am-9pm"
+                },
+                {
+                    "name" : "Our hours are 9am-9pm every day"
+                }
+            ]
+        },
+        {
+            "tag": "sweet",
+            "patterns": [
+                "sweet"
+            ],
+            "responses": [
+                {
+                    "name": "Mango Lassi",
+                    "explanation": "Mango Lassi, an all time Indian favorite summer drink is a creamy, thick, refreshing and delicious variation of lassi.",
+                    "suggestions": "Make this easy Mango Lassi recipe in less than 15 minutes with ripe mangoes, yogurt and your choice of flavorings – cardamom, saffron or rose water.",
+                    "link" : "https://www.youtube.com/watch?v=7KNGOT_YcS0&ab_channel=CookwithLubna"
+                },   
+                {
+                    "name": "Modak",
+                    "explanation": "Modak is a sweet dumpling whose exterior is made out of rice or wheat flour while the insides are filled with fresh coconut or jaggery. Southern and Western India is the best place to find modak and is called by various names such as Sughiyan in Malayali, Kadubu in Kannada and Kudumu in Telugu.",
+                    "suggestions": "The soft dumpling melts as soon as it enters your mouth giving you endless fits of sugary pleasure",
+                    "link" : "https://www.youtube.com/watch?v=NKH1QjPQQJ4&ab_channel=CookingShookingHindi"
+                },
+                {
+                    "name": "Jalebi",
+                    "explanation": "Jalebi is a popular Indian sweet snack. It is made by deep-frying maida flour batter in pretzel or circular shapes, which are then soaked in sugar syrup.",
+                    "suggestions": "This dessert can be served warm or cold",
+                    "link" : "https://www.youtube.com/watch?v=0w471_wMPP0&ab_channel=CookingShookingHindi"
+                }
+            ]
+        },
+        {
+            "tag": "veg",
+            "patterns": [
+                "veg"
+            ],
+            "responses": [
+                {
+                    "name" : "Baingan Bharta",
+                    "explanation" : "Baingan bharta is a South Asian dish prepared by mincing grilled eggplant and mixing it with tomato, onion, herbs and spices.",
+                    "suggestions" : " Grilling the eggplant over charcoal or direct fire infuses the dish with a smoky flavour.",
+                    "link" : "https://www.youtube.com/watch?v=-84Zz2EP4h4&ab_channel=Kabita%27sKitchen"
+                }, 
+                {
+                    "name" : "Manchurian",
+                    "explanation" : "Manchurian is a class of Indo-chinese dishes made by roughly chopping and deep-frying a main ingredient like chicken, cauliflower, prawns, fish, mutton or paneer.",
+                    "suggestions" : "and then sautéeing it in a sauce flavored with soy sauce.",
+                    "link" : "https://www.youtube.com/watch?v=2-uu7l3Qwuo&ab_channel=CookingShooking"
+                }, 
+                {
+                    "name" : "Bhindi Masala",
+                    "explanation" : "Bhindi Masala is a simple North Indian bhindi masala that is great on flavors, tastes delicious & is healthy. Bhindi masala is a healthy dish made with okra, whole and ground spices, onions & tomatoes.",
+                    "suggestions" : "This semi dry curry made goes very well as a side with rice or roti. It is mildly spicy, hot & full of flavors that comes from the pan fried bhindi and garam masala.",
+                    "link" : "https://www.youtube.com/watch?v=ect1YiQALF8&ab_channel=SoniaBarton"
+                }
+                
+            ]
+        },
+        {
+            "tag": "chicken",
+            "patterns": [
+                "chicken"
+            ],
+            "responses": [
+                {
+                    "name" : "Tandoori Chicken",
+                    "explanation" : "Tandoori chicken is a chicken dish prepared by roasting chicken marinated in yogurt and spices in a tandoor, a cylindrical clay oven.",
+                    "suggestions" : "The dish originated from the Indian subcontinent and is popular in many other parts of the world",
+                    "link" : "https://www.youtube.com/watch?v=-CKvt1KNU74&ab_channel=GetCurried"
+                }, 
+                {
+                    "name" : "Popcorn Chicken",
+                    "explanation" : "Popcorn chicken is a dish consisting of small, bite-sized pieces of chicken that have been breaded and fried.",
+                    "suggestions" : "The idea was originally developed by KFC but has since spread.",
+                    "link" : "https://www.youtube.com/watch?v=yzYkowe5fE8&ab_channel=Mamagician"
+                }, 
+                {
+                    "name" : "Chicken Biryani",
+                    "explanation" : "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent.",
+                    "suggestions" : "It is made with Indian spices, rice, and meat usually that of chicken, goat, lamb, prawn, fish, and sometimes, in addition, eggs or vegetables such as potatoes in certain regional varieties.",
+                    "link" : "https://www.youtube.com/watch?v=95BCU1n268w&ab_channel=SpiceEats"
+                }
+            ]
+        },
+        {
+            "tag": "drinks",
+            "patterns": [
+                "drinks"
+            ],
+            "responses": [
+                {
+                    "name" : "Mojito",
+                    "explanation" : "Mojito is a traditional Cuban highball. The cocktail often consists of five ingredients: white rum, sugar, lime juice, soda water, and mint.",
+                    "suggestions" : " Its combination of sweetness, citrus, and herbaceous mint flavours is intended to complement the rum, and has made the mojito a popular summer drink",
+                    "link" : "https://www.youtube.com/watch?v=Dl4RHpoyBhc&ab_channel=TasteUnfold"
+                },
+                {
+                    "name" : "Panakam",
+                    "explanation" : "Panakam is a traditional beverage made with jaggery, water & cardamom powder. It is a custom to make panakam for Sri Rama Navami in temples. It is offered to the Lord & them distributed among the devotees.",
+                    "suggestions" : " Chalimidi is a sweet dish made with rice flour, jaggery and cardamom powder.",
+                    "link" : "https://www.youtube.com/watch?v=42t12JMA37c&ab_channel=HebbarsKitchen"
+                },
+                {
+                    "name" : "Butter Milk",
+                    "explanation" : "Buttermilk is a fermented dairy drink. Traditionally, it was the liquid left behind after churning butter out of cultured cream. As most modern butter is not made with cultured cream but sweet cream, most modern buttermilk is cultured.",
+                    "suggestions" : " It is common in warm climates where unrefrigerated fresh milk sours quickly.",
+                    "link" : "https://www.youtube.com/watch?v=WHyoIhxpt78&ab_channel=CookEat%26Share"
+                }
+            ]
+        },
+        {
+            "tag": "momos",
+            "patterns": [
+                "momos"
+            ],
+            "responses": [
+                {
+                    "name" : "Chilly Paneer Momos",
+                    "explanation" : "Momo is a type of dumpling. It is popular throughout most of the Indian subcontinent and in the regions straddling the Himalayas between South Asia and East Asia.",
+                    "suggestions" : "Momos are commonly found in the cuisines of Nepal, Tibet, Bhutan and India.",
+                    "link" : "https://www.youtube.com/watch?v=oia56j6IoR8&ab_channel=KunalKapur"
+                },
+                {
+                    "name" : "Chicken Momos",
+                    "explanation" : "Chicken Momos is a popular street food in India but its roots are from Tibet and Bhutan. This dish is also very similar to dumplings from China.",
+                    "suggestions" : "And also believed to have spread from China through caravan routes connecting the Central Asian steppe to both East and West.",
+                    "link" : "https://www.youtube.com/watch?v=3r9S4z2G6C0"
+                },
+                {
+                    "name" : "Steamed Momos",
+                    "explanation" : "Momo is a type of steamed dumpling with some form of filling. Momo has become a traditional delicacy in Nepal, Tibet,",
+                    "suggestions" : "as well as among Nepalese and Tibetan communities in Bhutan, as well as people of the Indian regions of Darjeeling, Ladakh, Sikkim, Assam, and Arunachal Pradesh.",
+                    "link" : "https://www.youtube.com/watch?v=Dl4RHpoyBhc&ab_channel=TasteUnfold"
+                }
+            ]
+        },
+        {
+            "tag": "salad",
+            "patterns": [
+                "salad"
+            ],
+            "responses": [
+                {
+                    "name" : "Leafy Green Salad",
+                    "explanation" : "Leaf vegetables, also called leafy greens, salad greens, pot herbs, vegetable greens, or simply greens,",
+                    "suggestions" : "are plant leaves eaten as a vegetable, sometimes accompanied by tender petioles and shoots.",
+                    "link" : "https://www.youtube.com/watch?v=ln_P2jNCSA0&ab_channel=TwistWithATaste"
+                },
+                {
+                    "name" : "Fruity Pasta Salad",
+                    "explanation" : "Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either their own juices or a syrup. In different forms, fruit salad can be served as an appetizer, a side salad, or a dessert. When served as an appetizer or dessert,",
+                    "suggestions" : " a fruit salad is sometimes known as a fruit cocktail (often connoting a canned product), or fruit cup (when served in a small container).",
+                    "link" : "https://www.youtube.com/watch?v=LgbzKkOwZBk&ab_channel=FUSIONKITCHEN"
+                },
+                {
+                    "name" : "Potato Salad",
+                    "explanation" : "Potato salad is a dish made from boiled potatoes and a variety of other ingredients. It is generally considered a side dish, as it usually accompanies the main course.",
+                    "suggestions" : " Potato salad is widely believed to have originated in Germany, spreading largely throughout Europe, European colonies and later Asia.",
+                    "link" : "https://www.youtube.com/watch?v=P-i-f5GoyhQ&ab_channel=Fablunch"
+                }
+            ]
+        },
+        {
+            "tag": "pizza",
+            "patterns": [
+                "pizza"
+            ],
+            "responses": [
+                {
+                    "name" : "Cheese Burst Pizza",
+                    "explanation" : "Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese,",
+                    "suggestions" : "and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta",
+                    "link" : "https://www.youtube.com/watch?v=dSP6L6vGDPs&ab_channel=YourFoodLab"
+                },
+                {
+                    "name" : "Margherita Pizza",
+                    "explanation" : "Pizza Margherita (more commonly known in English as Margherita pizza) is a typical Neapolitan pizza, made with San Marzano tomatoes,",
+                    "suggestions" : "mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.",
+                    "link" : "https://www.youtube.com/watch?v=A4OeQAYfoIw&ab_channel=YummyTreats"
+                },
+                {
+                    "name" : "Tandoori Paneer Pizza",
+                    "explanation" : "Tandoori Paneer Pizza consists the unique topping of Indian cottage cheese, few veggies and spicy herbs which can be arranged on your choice of base. It is a true fusion snack dish to fill the hungry stomach.",
+                    "suggestions" : "Tandoori Paneer Pizza is an exciting way of preparation and presentation. It really melts your mouth at the time of cooking.",
+                    "link" : "https://www.youtube.com/watch?v=TH_EM2-eDY0&ab_channel=FoodBreaker"
+                }
+            ]
+        },
+        {
+            "tag": "fish",
+            "patterns": [
+                "fish"
+            ],
+            "responses": [
+                {
+                    "name" : "Masala Fried Pomfret",
+                    "explanation" : "Fish Recheado Masala Recipe a spicy, tangy, shallow fried fish is a traditional Goan recipe. Recheado masala is a red paste which is filled with stuffing in fishes like pomfret and mackerel.",
+                    "suggestions" : "Me and my sister have grown up eating this fish and I just love them. In-fact I am not so fond of mackerel but when rechead is filled in it just love mackerels then.",
+                    "link" : "https://www.youtube.com/watch?v=er8fXqPas3Y&ab_channel=TheTerraceKitchen"
+                },
+                {
+                    "name" : "Fish Cutlets",
+                    "explanation" : "Cutlet (derived from French côtelette, côte, rib) refers to: ... a croquette or cutlet-shaped patty made of ground meat.",
+                    "suggestions" : "a kind of fish cut where the fish is sliced perpendicular to the spine, rather than parallel (as with fillets); often synonymous with steak.",
+                    "link" : "https://www.youtube.com/watch?v=ASqaXXPmYYY&ab_channel=Dia%27sKitchen"
+                },
+                {
+                    "name" : "Green Fish Curry",
+                    "explanation" : "The name green curry derives from the color of the dish, which comes from green chillies. The sweet in the Thai name (wan means 'sweet') refers to the particular color green itself and not to the taste of the curry.",
+                    "suggestions" : " As this is a Thai curry based on coconut milk and fresh green chillies, the color comes out creamy mild green or, as this color is called in Thai, sweet green",
+                    "link" : "https://www.youtube.com/watch?v=OAH20UPxLDw&ab_channel=NishaThajuMommy%27sKitchen"
+                }
+            ]
+        },
+        {
+            "tag": "prawn",
+            "patterns": [
+                "prawns"
+            ],
+            "responses": [
+                {
+                    "name" : "Kerala Fried Prawns",
+                    "explanation" : "Prawn is a common name for small aquatic crustaceans with",
+                    "suggestions" : "an exoskeleton and ten legs, some of which can be eaten",
+                    "link" : "https://www.youtube.com/watch?v=tBF5xwzBRm8&ab_channel=SoulSister%27sDelightfulFood"
+                },
+                {
+                    "name" : "Crispy Prawns",
+                    "explanation" : "A crisp snack made with prawns, which are marinated in soya sauce, wine and sugar.",
+                    "suggestions" : "They are then tossed with a lip-smacking Asian sauce.",
+                    "link" : "https://www.youtube.com/watch?v=moNg2sja3Cs&ab_channel=Scoff"
+                },
+                {
+                    "name" : "Koliwada Prawns",
+                    "explanation" : "Prawn Koliwada is a spicy Fried Prawn dish, relished as a starter in restaurants and also a appetizer for a party.",
+                    "suggestions" : "These deep-fried ,crunchy prawns can be identified by their signature red color because of the use of Kashmiri red chili powde",
+                    "link" : "https://www.youtube.com/watch?v=b48mLnKtO_M&ab_channel=Yum"
+                }
+            ]
+        }
+    ]
+}
